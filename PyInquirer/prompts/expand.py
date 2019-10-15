@@ -195,6 +195,6 @@ def question(message, **kwargs):
     return Application(
         layout=layout,
         key_bindings_registry=manager.registry,
-        mouse_support=True,
+        mouse_support=False,
         style=style
     )
